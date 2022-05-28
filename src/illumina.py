@@ -69,10 +69,10 @@ outputText = StringVar()
 outputText.set('**Output will appear here**')
 
 # GUI: Label components for guides
-guide1 = Label(window, text='1. Supported roman numeral range from 1 - 3999', bg='lightblue').grid(row=0, columnspan=3, pady=2)
-guide2 = Label(window, text='2. Supported roman syllables are "M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"',  bg='lightblue').grid(row=1, columnspan=3, pady=2)
-guide3 = Label(window, text='3. You may enter roman or integer value.', bg='lightblue').grid(row=2, columnspan=3, pady=2)
-guide4 = Label(window, text='4. Click on buttons you wish to convert the value to or clear your entry.', bg='lightblue').grid(row=3, columnspan=3, pady=2)
+guide1 = Label(window, text='1. Supported roman numeral range from 1 - 3999', bg='lightblue').grid(row=0, columnspan=3, padx=10, pady=2 ,sticky='w')
+guide2 = Label(window, text='2. Supported roman syllables are "M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"',  bg='lightblue').grid(row=1, columnspan=3, padx =10, pady=2, sticky='w')
+guide3 = Label(window, text='3. You may enter roman or integer value.', bg='lightblue').grid(row=2, columnspan=3, padx=10, pady=2, sticky='w')
+guide4 = Label(window, text='4. Click on buttons you wish to convert the value to or clear your entry.', bg='lightblue').grid(row=3, columnspan=3, padx=10, pady=2, sticky='w')
 
 # GUI: Input (Entry) component
 entry = Entry(window, width=100, borderwidth=2, justify='center')
