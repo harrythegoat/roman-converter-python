@@ -1,11 +1,14 @@
 # Virtual Environment Activate Command
-.\Scripts\activate
+source venv/bin/activate
 
 # Virtual Environment Deactivate Command
 deactivate
 
+# Application Code
+Under src/romanConverter.py
+
 # Run Roman Converter Program
-python illumina.py
+python romanConverter.py
 
 # Run Roman Converter .exe
-Under src/dist/illumina.exe
+Under src/dist/romanConverter.exe
